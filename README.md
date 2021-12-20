@@ -36,7 +36,7 @@ function init() {
 
 ## Things to consider and look out for
 - This example project was set up under the assumption that a single container sends data to a single GA property
-- Consider using account level GTM API calls and looping through each container to remove the manaual work of entering information in the config (same for GA)
+- Consider using account level GTM API calls and looping through each container to remove the manual work of entering information in the config (same for GA)
 - The Confluence API uses xHTML so ensure any special characters are replaced or escaped, you'll notice my code in the confluence.gs file replaces ampersand with "AND".
 - An alternative to Confluence is sending the data to a google sheet instead which can then be iframed in to a Confluence page. (This was my original solution)
 
